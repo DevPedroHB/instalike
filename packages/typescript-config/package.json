@@ -1,6 +1,7 @@
 {
-  "name": "@repo/typescript-config",
-  "version": "0.0.0",
+  "name": "@instalike/typescript-config",
+  "version": "1.0.0",
+  "author": "PedroHB",
   "private": true,
   "license": "MIT",
   "publishConfig": {

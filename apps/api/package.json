@@ -1,0 +1,27 @@
+{
+  "name": "instalike-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/server.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "pnpm env:load tsx watch src/server.ts",
+    "env:load": "dotenv -e ../../.env --",
+    "start": "node dist/src/server.js"
+  },
+  "keywords": [],
+  "author": "PedroHB",
+  "license": "MIT",
+  "dependencies": {
+    "@instalike/env": "workspace:*",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@instalike/typescript-config": "workspace:*",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "dotenv-cli": "^7.4.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2"
+  }
+}
