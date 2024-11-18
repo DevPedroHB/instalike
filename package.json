@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "instalike",
   "private": true,
   "scripts": {
     "build": "turbo build",
