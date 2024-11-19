@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "@instalike/env": "workspace:*",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "ky": "^1.7.2"
   },
   "devDependencies": {
     "@instalike/typescript-config": "workspace:*",

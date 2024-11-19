@@ -1,0 +1,15 @@
+{
+	"author": "PedroHB",
+	"dependencies": {
+		"json-server": "1.0.0-beta.3"
+	},
+	"description": "",
+	"keywords": [],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "instalike-json-server",
+	"scripts": {
+		"dev": "json-server db.json --port 3334"
+	},
+	"version": "1.0.0"
+}
